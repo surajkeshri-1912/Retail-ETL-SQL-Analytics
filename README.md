@@ -1,4 +1,18 @@
-# Retail Orders Data Analytics Project
+# Retail ETL SQL Analytics
+
+End-to-End Data Analytics Project: CSV → Python → SQL Server → SQL Analysis → Insights
+
+---
+
+## 📊 Project Flow Diagram
+
+```mermaid
+flowchart LR
+    A[(Orders.csv)] -->|Extract| B[Python ETL<br/>Pandas Cleaning]
+    B -->|Load| C[(SQL Server Database)]
+    C -->|Analyze| D[SQL Queries<br/>CTEs & Window Functions]
+    D --> E[Business Insights]
+
 
 ## Project Overview
 End-to-end data analytics pipeline that:
@@ -29,3 +43,4 @@ End-to-end data analytics pipeline that:
 
 ## Author
 Suraj Keshri
+GitHub: https://github.com/surajkeshri-1912
